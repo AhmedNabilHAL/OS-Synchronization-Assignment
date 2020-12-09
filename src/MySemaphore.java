@@ -5,9 +5,17 @@ public class MySemaphore {
     public synchronized void acquire() {
         value-- ;
         if (value < 0)
-            try { System.out.println(" and waiting"); wait(); } catch( InterruptedException e ) { }
+            try {
+                System.out.println(" and waiting");
+                wait();
+            } catch( InterruptedException e ) {
+                e.printStackTrace();
+            }
     }
     public synchronized void release() {
-        value++ ; if (value <= 0) notify();
+        value++;
+        if (value <= 0) {
+            notify();
+        }
     }
 }
