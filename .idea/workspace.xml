@@ -19,12 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e35e7a-4d4f-4823-9862-59a3a93997bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    <list default="true" id="81e35e7a-4d4f-4823-9862-59a3a93997bb" name="Default Changelist" comment="imp main">
+      <change afterPath="$PROJECT_DIR$/src/Writer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OS-Synchronization-Assignment/MySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OS-Synchronization-Assignment/MySemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OS-Synchronization-Assignment/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OS-Synchronization-Assignment/Network.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +61,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Network">
     <configuration name="Network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Network" />
+      <module name="OS-Synchronization-Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="OS-Synchronization-Assignment" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Network" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607448841593</updated>
     </task>
+    <task id="LOCAL-00001" summary="imp main">
+      <created>1607546152489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607546152489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,23 +115,47 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="imp main" />
+    <option name="LAST_COMMIT_MESSAGE" value="imp main" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1252" height="304" key="GridCell.Tab.0.bottom" timestamp="1607543157671">
+    <state width="1252" height="238" key="GridCell.Tab.0.bottom" timestamp="1607548464697">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
-    <state width="1252" height="304" key="GridCell.Tab.0.bottom/71.0.1295.768@71.0.1295.768" timestamp="1607543157671" />
-    <state width="1252" height="304" key="GridCell.Tab.0.center" timestamp="1607543157671">
+    <state width="1252" height="238" key="GridCell.Tab.0.bottom/71.0.1295.768@71.0.1295.768" timestamp="1607548464697" />
+    <state width="1252" height="238" key="GridCell.Tab.0.center" timestamp="1607548464696">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
-    <state width="1252" height="304" key="GridCell.Tab.0.center/71.0.1295.768@71.0.1295.768" timestamp="1607543157671" />
-    <state width="1252" height="304" key="GridCell.Tab.0.left" timestamp="1607543157670">
+    <state width="1252" height="238" key="GridCell.Tab.0.center/71.0.1295.768@71.0.1295.768" timestamp="1607548464696" />
+    <state width="1252" height="238" key="GridCell.Tab.0.left" timestamp="1607548464696">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
-    <state width="1252" height="304" key="GridCell.Tab.0.left/71.0.1295.768@71.0.1295.768" timestamp="1607543157670" />
-    <state width="1252" height="304" key="GridCell.Tab.0.right" timestamp="1607543157671">
+    <state width="1252" height="238" key="GridCell.Tab.0.left/71.0.1295.768@71.0.1295.768" timestamp="1607548464696" />
+    <state width="1252" height="238" key="GridCell.Tab.0.right" timestamp="1607548464697">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
-    <state width="1252" height="304" key="GridCell.Tab.0.right/71.0.1295.768@71.0.1295.768" timestamp="1607543157671" />
+    <state width="1252" height="238" key="GridCell.Tab.0.right/71.0.1295.768@71.0.1295.768" timestamp="1607548464697" />
+    <state width="1252" height="238" key="GridCell.Tab.1.bottom" timestamp="1607548464699">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="238" key="GridCell.Tab.1.bottom/71.0.1295.768@71.0.1295.768" timestamp="1607548464699" />
+    <state width="1252" height="238" key="GridCell.Tab.1.center" timestamp="1607548464698">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="238" key="GridCell.Tab.1.center/71.0.1295.768@71.0.1295.768" timestamp="1607548464698" />
+    <state width="1252" height="238" key="GridCell.Tab.1.left" timestamp="1607548464698">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="238" key="GridCell.Tab.1.left/71.0.1295.768@71.0.1295.768" timestamp="1607548464698" />
+    <state width="1252" height="238" key="GridCell.Tab.1.right" timestamp="1607548464699">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="238" key="GridCell.Tab.1.right/71.0.1295.768@71.0.1295.768" timestamp="1607548464699" />
+    <state x="310" y="117" key="Vcs.Push.Dialog.v2" timestamp="1607546160009">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="310" y="117" key="Vcs.Push.Dialog.v2/71.0.1295.768@71.0.1295.768" timestamp="1607546160008" />
     <state x="375" y="172" key="run.anything.popup" timestamp="1607541229856">
       <screen x="71" y="0" width="1295" height="768" />
     </state>

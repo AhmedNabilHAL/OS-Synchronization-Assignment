@@ -28,6 +28,11 @@ public class Router {
         deviceList.get(deviceIdx).release();
         deviceList.remove(deviceIdx);
     }
+    public void releaseAll(){
+        for(Device d : deviceList)
+            d.release();
+        deviceList.clear();
+    }
     public String getConnectedDevices(){
         return deviceList.toString();
     }

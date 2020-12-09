@@ -6,7 +6,7 @@ public class MySemaphore {
         value-- ;
         if (value < 0)
             try {
-                System.out.println(" and waiting");
+                Writer.write(" and waiting");
                 wait();
             } catch( InterruptedException e ) {
                 e.printStackTrace();

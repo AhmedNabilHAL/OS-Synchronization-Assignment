@@ -19,19 +19,19 @@ public class Device extends Thread {
     public void run(){
         try {
             // First, get a permit.
-            System.out.println(String.format("-(%s)(%s) arrived", name, type));
+             Writer.write(String.format("-(%s)(%s) arrived", name, type));
 
             // acquiring the lock
             sem.acquire();
-            if (!exit) System.out.println(String.format("-Connection %d: %s Occupied", connectionNo, name));
+            if (!exit) Writer.write(String.format("-Connection %d: %s Occupied", connectionNo, name));
             while(!exit) {
-                System.out.println(String.format("Connection %d: %s performing online activity", connectionNo, name));
+                 Writer.write(String.format("Connection %d: %s performing online activity", connectionNo, name));
 
                 // Now, allowing a context switch -- if possible.
                 // for thread B to execute
                 Thread.sleep(1000);
             }
-            System.out.println(String.format("-Connection %d: %s disconnected.", connectionNo, name));
+             Writer.write(String.format("-Connection %d: %s disconnected.", connectionNo, name));
             sem.release();
         }
         catch(Exception e){
